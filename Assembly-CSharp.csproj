@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/CounterWorks.cs" />
+    <Compile Include="Assets/Scripts/PipePointLogic.cs" />
     <Compile Include="Assets/Scripts/MainMenu.cs" />
     <Compile Include="Assets/Scripts/Startup.cs" />
     <Compile Include="Assets/Scripts/PasswordG.cs" />
