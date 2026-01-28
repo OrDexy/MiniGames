@@ -463,7 +463,9 @@
 "Assets/Scripts/GlobalButton.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/PasswordG.cs"
+"Assets/Scripts/PipeG.cs"
 "Assets/Scripts/PipePointLogic.cs"
+"Assets/Scripts/ScriptableScenario.cs"
 "Assets/Scripts/Startup.cs"
 -langversion:9.0
 /deterministic
