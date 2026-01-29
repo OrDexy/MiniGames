@@ -1,16 +1,11 @@
 using UnityEngine;
-
-public class ScriptableScenario : MonoBehaviour
+[CreateAssetMenu(fileName = "Scenario", menuName = "ScriptableObjects/PipeScenarioScriptableObject", order = 1)]
+public class PipeScenarioScriptableObject : ScriptableObject
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	 public int countOfLine;
+	 public int countOfTurn;
+	 public int countOfTShape;
+	 //0 out of 10
+    public int yInput;
+    public int yOutput;	
 }
