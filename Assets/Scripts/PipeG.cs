@@ -1,5 +1,5 @@
 using UnityEngine;
-//rtrtrt
+using System.Collections.Generic;
 public class PipeG : MonoBehaviour
 {
 	 public PipeScenarioScriptableObject[] scenes;
@@ -24,5 +24,19 @@ public class PipeG : MonoBehaviour
         for(int i = 0; i < scenes[rnd].countOfTShape; i++)
         	   Instantiate(tShape, new Vector2(Random.Range(-maxX, maxX), Random.Range(-maxY, maxY)), Quaternion.identity);
         
+    }
+    public void RefreshNetwork()
+    {
+        Pipe[] allPipes = FindObjectsOfType<Pipe>();
+        foreach(var p in allPipes)
+        {
+            if(p.gameObject.tag != "Source") p.GetItOff();
+            else p.GetItOn();
+        }
+        HashSet<Pipe> visited = new HashSet<Pipe>();
+        foreach(var p in allPipes)
+        {
+            if(p.gameObject.tag == "Source") p.SpreadPower(visited);
+        }
     }
 }

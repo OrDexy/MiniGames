@@ -130,9 +130,9 @@ GameObject:
   - component: {fileID: 22401250}
   - component: {fileID: 22401251}
   - component: {fileID: 22401252}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point (1)
-  m_TagString: On
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -298,7 +298,7 @@ Transform:
   m_GameObject: {fileID: 42647004}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -3.87, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -399,9 +399,9 @@ GameObject:
   - component: {fileID: 373330711}
   - component: {fileID: 373330712}
   - component: {fileID: 373330713}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point
-  m_TagString: On
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -601,9 +601,10 @@ GameObject:
   m_Component:
   - component: {fileID: 744984166}
   - component: {fileID: 744984165}
+  - component: {fileID: 744984167}
   m_Layer: 0
   m_Name: InputPipe
-  m_TagString: Untagged
+  m_TagString: Source
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -683,6 +684,27 @@ Transform:
   - {fileID: 22401250}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &744984167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744984164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3acdb8d537647ea4b816b954ac347525, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Pipe
+  isPowered: 0
+  pipeLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  connectors:
+  - {fileID: 373330711}
+  - {fileID: 22401250}
+  online: {fileID: -1008482373, guid: 5344c7fbf2e59494aaa7be4a3acfcf6c, type: 3}
+  offline: {fileID: 1231008579, guid: 5344c7fbf2e59494aaa7be4a3acfcf6c, type: 3}
 --- !u!1 &1141684222
 GameObject:
   m_ObjectHideFlags: 0
@@ -1182,7 +1204,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1950644776}
   - component: {fileID: 1950644775}
-  - component: {fileID: 1950644777}
   m_Layer: 0
   m_Name: CoolerMan
   m_TagString: Untagged
@@ -1226,19 +1247,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1950644777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1950644774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b59d52dbe0113e4bb3dd2c801d5e0c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PipesDD
-  selectedObject: {fileID: 0}
 --- !u!1 &2009803200
 GameObject:
   m_ObjectHideFlags: 0
@@ -1350,6 +1358,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1704924831249005279, guid: 95f941a71b9a29846a3262ec3805d7c3, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6204441334334504179, guid: 95f941a71b9a29846a3262ec3805d7c3, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7357374276719134577, guid: 95f941a71b9a29846a3262ec3805d7c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.88

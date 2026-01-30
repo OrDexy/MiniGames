@@ -8,18 +8,18 @@ Kernel version:          6.18.4-200.fc43.x86_64
 Architecture:            x86_64
 Window Protocol:         Wayland (XWayland)
 Available memory:        15880 MB
-Date:                    2026-01-29T05:59:25Z
+Date:                    2026-01-30T06:36:01Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-numlock" at "2026-01-29T05:59:25.198813Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-numlock" at "2026-01-30T06:36:01.382306Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              2f1dcace4ea541e29b6dcc42a8d98e9d
-  Correlation Id:          0f5b182f3db754585d1671e4b59cc4fc
-  External correlation Id: 9158491863067371969
+  Session Id:              1500e41fffad4903a35d888e1c56232e
+  Correlation Id:          b5e2678b8495ae12e18be8296daa80fa
+  External correlation Id: 4103404916309642775
   Machine Id:              jIZ9yGKsSSfEcT3CAQnXTyT73GU=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-numlock" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-numlock-notifications" at "2026-01-29T05:59:25.20107Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-numlock-notifications" at "2026-01-30T06:36:01.386015Z"
 [Licensing::Module] Licensing Background thread has ended after 0.00s
 Selected window backend: (null) 
 Desktop is 1600 x 900 @ 60 Hz
@@ -37,7 +37,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-45877
+36623
 -licensingIpc
 LicenseClient-numlock
 -job-worker-count
@@ -48,9 +48,9 @@ LicenseClient-numlock
 1
 Successfully changed project path to: /home/numlock/UnityProj/MiniGames
 
-(Unity:5266): Gtk-CRITICAL **: 08:59:25.490: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:6027): Gtk-CRITICAL **: 09:36:01.675: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 
-(Unity:5266): Gtk-CRITICAL **: 08:59:25.490: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:6027): Gtk-CRITICAL **: 09:36:01.676: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 /home/numlock/UnityProj/MiniGames
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
@@ -87,12 +87,12 @@ Successfully changed project path to: /home/numlock/UnityProj/MiniGames
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140119858716032]  Target information:
+Player connection [140329604140416]  Target information:
 
-Player connection [140119858716032]  * "[IP] 192.168.1.15 [Port] 0 [Flags] 2 [Guid] 526302468 [EditorId] 526302468 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.15) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [140329604140416]  * "[IP] 192.168.1.15 [Port] 0 [Flags] 2 [Guid] 2029927089 [EditorId] 2029927089 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.15) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [140119858716032] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [140119858716032] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140329604140416] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140329604140416] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -110,7 +110,7 @@ Library Redirect Path: Library/
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-Refreshing native plugins compatible for Editor in 2,58 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2,51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 6000.2.2f1 (ea398eefe1c2)
 [Subsystems] Discovering subsystems at path /home/numlock/Unity/Hub/Editor/6000.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -128,54 +128,54 @@ offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query
 fer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI
 _texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_clock GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_
 vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1608640160
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1502493728
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Initialize mono
 Mono path[0] = '/home/numlock/Unity/Hub/Editor/6000.2.2f1/Editor/Data/Managed'
 Mono path[1] = '/home/numlock/Unity/Hub/Editor/6000.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/numlock/Unity/Hub/Editor/6000.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56266
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56027
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/numlock/Unity/Hub/Editor/6000.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/numlock/Unity/Hub/Editor/6000.2.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /home/numlock/Unity/Hub/Editor/6000.2.2f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,003303 seconds.
-- Loaded All Assemblies, in  0,549 seconds
+Registered in 0,003318 seconds.
+- Loaded All Assemblies, in  0,553 seconds
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 265 ms
+Android Extension - Scanning For ADB Devices 269 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,898 seconds
-Domain Reload Profiling: 1447ms
-	BeginReloadAssembly (121ms)
+- Finished resetting the current domain, in  0,932 seconds
+Domain Reload Profiling: 1486ms
+	BeginReloadAssembly (124ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (87ms)
-	LoadAllAssembliesAndSetupDomain (268ms)
-		LoadAssemblies (121ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (265ms)
+		LoadAssemblies (123ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (263ms)
-			TypeCache.Refresh (261ms)
-				TypeCache.ScanAssembly (238ms)
+		AnalyzeDomain (259ms)
+			TypeCache.Refresh (258ms)
+				TypeCache.ScanAssembly (236ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (899ms)
+	FinalizeReload (933ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (813ms)
+		SetupLoadedEditorAssemblies (853ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (429ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (116ms)
-			ProcessInitializeOnLoadAttributes (173ms)
-			ProcessInitializeOnLoadMethodAttributes (86ms)
+			InitializePlatformSupportModulesInManaged (431ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -185,8 +185,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1,152 seconds
-Refreshing native plugins compatible for Editor in 0,91 ms, found 1 plugins.
+- Loaded All Assemblies, in  1,156 seconds
+Refreshing native plugins compatible for Editor in 0,99 ms, found 1 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -195,54 +195,502 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1,158 seconds
-Domain Reload Profiling: 2308ms
-	BeginReloadAssembly (226ms)
+- Finished resetting the current domain, in  1,182 seconds
+Domain Reload Profiling: 2336ms
+	BeginReloadAssembly (228ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
+		CreateAndSetChildDomain (59ms)
 	RebuildCommonClasses (58ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (781ms)
-		LoadAssemblies (430ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (782ms)
+		LoadAssemblies (434ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (444ms)
-			TypeCache.Refresh (330ms)
-				TypeCache.ScanAssembly (303ms)
-			BuildScriptInfoCaches (91ms)
+		AnalyzeDomain (441ms)
+			TypeCache.Refresh (327ms)
+				TypeCache.ScanAssembly (300ms)
+			BuildScriptInfoCaches (92ms)
 			ResolveRequiredComponents (18ms)
-	FinalizeReload (1159ms)
+	FinalizeReload (1182ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (945ms)
+		SetupLoadedEditorAssemblies (960ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (15ms)
 			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (213ms)
-			ProcessInitializeOnLoadAttributes (535ms)
-			ProcessInitializeOnLoadMethodAttributes (164ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (215ms)
+			ProcessInitializeOnLoadAttributes (547ms)
+			ProcessInitializeOnLoadMethodAttributes (168ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 AutoLocale: current locale expects 'C' but got 'ru_RU.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6811 unused Assets / (6.8 MB). Loaded Objects now: 7504.
-Memory consumption went from 145.8 MB to 139.0 MB.
-Total: 20.879958 ms (FindLiveObjects: 1.321164 ms CreateObjectMapping: 1.073240 ms MarkObjects: 9.664113 ms  DeleteObjects: 8.820386 ms)
+Unloading 6812 unused Assets / (6.1 MB). Loaded Objects now: 7505.
+Memory consumption went from 145.7 MB to 139.7 MB.
+Total: 20.495862 ms (FindLiveObjects: 1.178765 ms CreateObjectMapping: 1.060877 ms MarkObjects: 9.645486 ms  DeleteObjects: 8.609540 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 209.300485 seconds.
-  path: Assets/Scripts/ScriptableScenario.cs
-  artifactKey: Guid(8abdf7369be4b067faa5bbff6e4845be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScriptableScenario.cs using Guid(8abdf7369be4b067faa5bbff6e4845be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b12990541a9f7f1162b346293eb0d0ee') in 0.006664809 seconds
+  Time since last request: 309.619037 seconds.
+  path: Assets/Prefabs/LinePipe.prefab
+  artifactKey: Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LinePipe.prefab using Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '534b7e816372db7cc125c2e2f0bcea7b') in 0.740620268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.385555 seconds.
+  path: Assets/Prefabs/LinePipe.prefab
+  artifactKey: Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LinePipe.prefab using Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f0b5b0480f7987d527318228ecd8235') in 0.016465142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.853277 seconds.
+  path: Assets/Prefabs/LinePipe.prefab
+  artifactKey: Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LinePipe.prefab using Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd18f1e64a096d82675e88684918b25c7') in 0.011920237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.980048 seconds.
+  path: Assets/Prefabs/LinePipe.prefab
+  artifactKey: Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LinePipe.prefab using Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00bdf8e358465625bf057698c8ac16aa') in 0.012314836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.159 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.130 seconds
+Domain Reload Profiling: 2293ms
+	BeginReloadAssembly (354ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (49ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (120ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (666ms)
+		LoadAssemblies (461ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (303ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (270ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1130ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (870ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (21ms)
+			BeforeProcessingInitializeOnLoad (211ms)
+			ProcessInitializeOnLoadAttributes (514ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6810 unused Assets / (5.5 MB). Loaded Objects now: 7542.
+Memory consumption went from 152.4 MB to 146.9 MB.
+Total: 14.996073 ms (FindLiveObjects: 1.195766 ms CreateObjectMapping: 0.895896 ms MarkObjects: 8.686343 ms  DeleteObjects: 4.216670 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 76.930171 seconds.
+  path: Assets/Prefabs/LinePipe.prefab
+  artifactKey: Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LinePipe.prefab using Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75d84a511772c8be782543cc89129559') in 0.747122041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.345184 seconds.
+  path: Assets/Prefabs/LinePipe.prefab
+  artifactKey: Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LinePipe.prefab using Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62252fe62c7f498ba6d5f605b2016e79') in 0.010103872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.260964 seconds.
+  path: Assets/Prefabs/LinePipe.prefab
+  artifactKey: Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LinePipe.prefab using Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '878e95f3ae06936a26172f8465a1f8fa') in 0.009747451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.159904 seconds.
+  path: Assets/Prefabs/LinePipe.prefab
+  artifactKey: Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LinePipe.prefab using Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06b11d115dad7a06ac85a3c840280023') in 0.00971911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.878344 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4ab166fc4c9e37c15865e58f1d21d89') in 0.013619756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.145466 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d4424d58f77829611cf0a88f0641c5e') in 0.013510303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.134550 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bf3d4123f9b6be51e7d7bf7e5f79999') in 0.013217423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.080580 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd09dcca6f93c747b9972d9f66347680a') in 0.014332461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.597204 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b56f2c6013fb3155e7747ad46bccd829') in 0.013203227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.347953 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31b165e640c0b85f40f4e521ccb14c74') in 0.01351634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.118586 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7da9a220d32362c217744568e95c79ea') in 0.014120144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.326948 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b12cb13b6d525a429ead1f102b7574a') in 0.013238239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.153303 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5f68e95556af7ac81710992ec562dbe') in 0.008347771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.617471 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32514e429e276e7b43e93dfb7c490419') in 0.013569919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.620405 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39d2f08bcab0717a07585d50e9e5428a') in 0.0136326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.811790 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7034840a8c300fbfeae0d98793ead2e1') in 0.013669927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.981083 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b2213808cc6c547e0827d646079c12a') in 0.013341173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.905381 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90cb13a5de406d8533fcc57d1aa6e229') in 0.013344659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.858482 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1289b2e3423bdf9e510ff3d894e4b20') in 0.013105526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.262433 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cea32138da289f3d7964ad52ac0e0ff0') in 0.0138572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.816403 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '422b09c9b5ceb713949c9075884a649a') in 0.01461963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.957475 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60444c9bf4302bed5e658083f6f8e3bc') in 0.013868206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.661307 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41cb5c18dea2241ee47ef9a443b14c5c') in 0.014034803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.163995 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a30f1351ee814517822b8535f65cd0f5') in 0.014252791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.456108 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '639931917fbc18947fe6c4838bfdc35c') in 0.014005313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.634554 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfa26252c8c1a8b1dc99d8c0dfab8899') in 0.013596666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.040336 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60549127a654d13061dc3a95b7ded9b9') in 0.013473427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.985685 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3a83424960c4fe84ed981fcb3a19845') in 0.013755454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.515895 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5343e5a2d0d1496ab84eabf45283c31') in 0.011948425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.279978 seconds.
+  path: Assets/Prefabs/TShapePipe.prefab
+  artifactKey: Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TShapePipe.prefab using Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b860908ed242f8f9ace419018c8524af') in 0.013756443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.747479 seconds.
+  path: Assets/Prefabs/TShapePipe.prefab
+  artifactKey: Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TShapePipe.prefab using Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '162178c22a570ca3e7d881b671c13287') in 0.013692607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.958823 seconds.
+  path: Assets/Prefabs/TShapePipe.prefab
+  artifactKey: Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TShapePipe.prefab using Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f279163a0e0fdbac7f38900020e7500') in 0.013842833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.037360 seconds.
+  path: Assets/Prefabs/TShapePipe.prefab
+  artifactKey: Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TShapePipe.prefab using Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c7307525e850fbb6897d1851a4a36de') in 0.013887413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.610108 seconds.
+  path: Assets/Prefabs/TShapePipe.prefab
+  artifactKey: Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TShapePipe.prefab using Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e9923ba1aa77d66319bc47ba7797dca') in 0.013935337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.005529 seconds.
+  path: Assets/Prefabs/TShapePipe.prefab
+  artifactKey: Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TShapePipe.prefab using Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c51de50d075477a8cf93d3f33eeb2d8') in 0.013388797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.907806 seconds.
+  path: Assets/Prefabs/TShapePipe.prefab
+  artifactKey: Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TShapePipe.prefab using Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ba2c226d15ddd64b98a7b6488db131e') in 0.013319804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.404060 seconds.
+  path: Assets/Prefabs/TShapePipe.prefab
+  artifactKey: Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TShapePipe.prefab using Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e14b8186c7b34b83b8fa52ae70313730') in 0.013371176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.924143 seconds.
+  path: Assets/Prefabs/TShapePipe.prefab
+  artifactKey: Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TShapePipe.prefab using Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d5465017c2ad5625ab084be50a40cf6') in 0.01342168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.971307 seconds.
+  path: Assets/Prefabs/TShapePipe.prefab
+  artifactKey: Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TShapePipe.prefab using Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb8b859c7ab3c7bffe1c4a9fd256d99b') in 0.01368867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.476632 seconds.
+  path: Assets/Prefabs/TShapePipe.prefab
+  artifactKey: Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TShapePipe.prefab using Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45152f1a58e1d85f5ef5accd7dc03218') in 0.013785917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.218936 seconds.
+  path: Assets/Prefabs/TShapePipe.prefab
+  artifactKey: Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TShapePipe.prefab using Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23c0270a46f3244c2ad5ac4daa5e793d') in 0.012030855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.264273 seconds.
+  path: Assets/Prefabs/TShapePipe.prefab
+  artifactKey: Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TShapePipe.prefab using Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a035a5a603a3ff945b8add52f70112c') in 0.01347465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.821242 seconds.
+  path: Assets/Prefabs/TShapePipe.prefab
+  artifactKey: Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TShapePipe.prefab using Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0630f9f91e6e5b25101cf2972dfa9c56') in 0.016457491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.590129 seconds.
+  path: Assets/Prefabs/TShapePipe.prefab
+  artifactKey: Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TShapePipe.prefab using Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d3d3cb54de1b2202c2916603d4f50d6') in 0.017149025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.827003 seconds.
+  path: Assets/Prefabs/TShapePipe.prefab
+  artifactKey: Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TShapePipe.prefab using Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a7d5ebcac3bfb5a03695b0805343423') in 0.013410576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.123379 seconds.
+  path: Assets/Scripts/PipePointLogic.cs
+  artifactKey: Guid(3acdb8d537647ea4b816b954ac347525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PipePointLogic.cs using Guid(3acdb8d537647ea4b816b954ac347525) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aae45ea0ccbf622f8517c747f0afb24b') in 0.000865017 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
@@ -250,8 +698,8 @@ Received Prepare
 [Licensing::Client] Successfully resolved entitlement details
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.138 seconds
-Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+- Loaded All Assemblies, in  1.134 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -259,512 +707,34 @@ Native extension for WebGL target not found
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.118 seconds
-Domain Reload Profiling: 2259ms
-	BeginReloadAssembly (316ms)
+- Finished resetting the current domain, in  1.106 seconds
+Domain Reload Profiling: 2243ms
+	BeginReloadAssembly (312ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (27ms)
+		DisableScriptedObjects (49ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (104ms)
-	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (687ms)
-		LoadAssemblies (474ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (309ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (272ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1118ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (858ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (15ms)
-			BeforeProcessingInitializeOnLoad (214ms)
-			ProcessInitializeOnLoadAttributes (510ms)
-			ProcessInitializeOnLoadMethodAttributes (96ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6809 unused Assets / (5.4 MB). Loaded Objects now: 7510.
-Memory consumption went from 147.3 MB to 141.9 MB.
-Total: 14.781901 ms (FindLiveObjects: 1.084080 ms CreateObjectMapping: 0.832031 ms MarkObjects: 8.672359 ms  DeleteObjects: 4.192255 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.070 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.090 seconds
-Domain Reload Profiling: 2163ms
-	BeginReloadAssembly (287ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (83ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (655ms)
-		LoadAssemblies (440ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (310ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (272ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1091ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (836ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (15ms)
-			BeforeProcessingInitializeOnLoad (210ms)
-			ProcessInitializeOnLoadAttributes (495ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6809 unused Assets / (5.6 MB). Loaded Objects now: 7513.
-Memory consumption went from 147.4 MB to 141.8 MB.
-Total: 18.346912 ms (FindLiveObjects: 1.309119 ms CreateObjectMapping: 0.876149 ms MarkObjects: 11.267926 ms  DeleteObjects: 4.892345 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6798 unused Assets / (6.9 MB). Loaded Objects now: 7513.
-Memory consumption went from 147.6 MB to 140.6 MB.
-Total: 22.155974 ms (FindLiveObjects: 1.358045 ms CreateObjectMapping: 0.921932 ms MarkObjects: 12.317724 ms  DeleteObjects: 7.556919 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6798 unused Assets / (7.3 MB). Loaded Objects now: 7513.
-Memory consumption went from 147.6 MB to 140.3 MB.
-Total: 18.121942 ms (FindLiveObjects: 1.130481 ms CreateObjectMapping: 0.798511 ms MarkObjects: 10.274490 ms  DeleteObjects: 5.917304 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1.79 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6798 unused Assets / (6.6 MB). Loaded Objects now: 7513.
-Memory consumption went from 147.6 MB to 141.0 MB.
-Total: 16.284640 ms (FindLiveObjects: 1.412457 ms CreateObjectMapping: 1.003127 ms MarkObjects: 9.063502 ms  DeleteObjects: 4.804225 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1.71 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6798 unused Assets / (6.6 MB). Loaded Objects now: 7513.
-Memory consumption went from 147.6 MB to 141.0 MB.
-Total: 22.977186 ms (FindLiveObjects: 1.382551 ms CreateObjectMapping: 0.974616 ms MarkObjects: 13.833668 ms  DeleteObjects: 6.784987 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.131 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.096 seconds
-Domain Reload Profiling: 2229ms
-	BeginReloadAssembly (298ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (28ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (87ms)
-	RebuildCommonClasses (66ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (64ms)
 	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (698ms)
-		LoadAssemblies (474ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (314ms)
-			TypeCache.Refresh (19ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (273ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1097ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (842ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (215ms)
-			ProcessInitializeOnLoadAttributes (490ms)
-			ProcessInitializeOnLoadMethodAttributes (97ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6809 unused Assets / (5.5 MB). Loaded Objects now: 7516.
-Memory consumption went from 147.4 MB to 141.9 MB.
-Total: 15.342748 ms (FindLiveObjects: 1.249966 ms CreateObjectMapping: 0.792142 ms MarkObjects: 8.682427 ms  DeleteObjects: 4.616184 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.091 seconds
-Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.118 seconds
-Domain Reload Profiling: 2213ms
-	BeginReloadAssembly (266ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (79ms)
-	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (686ms)
-		LoadAssemblies (448ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (318ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (279ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1119ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (866ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (17ms)
-			BeforeProcessingInitializeOnLoad (236ms)
-			ProcessInitializeOnLoadAttributes (496ms)
-			ProcessInitializeOnLoadMethodAttributes (94ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6809 unused Assets / (5.4 MB). Loaded Objects now: 7519.
-Memory consumption went from 147.5 MB to 142.1 MB.
-Total: 14.907268 ms (FindLiveObjects: 1.146217 ms CreateObjectMapping: 0.812232 ms MarkObjects: 8.533048 ms  DeleteObjects: 4.414551 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.095 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.176 seconds
-Domain Reload Profiling: 2273ms
-	BeginReloadAssembly (273ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (27ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (79ms)
-	RebuildCommonClasses (65ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (50ms)
+	initialDomainReloadingComplete (52ms)
 	LoadAllAssembliesAndSetupDomain (690ms)
-		LoadAssemblies (457ms)
+		LoadAssemblies (452ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (314ms)
+		AnalyzeDomain (316ms)
 			TypeCache.Refresh (17ms)
 				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (274ms)
+			BuildScriptInfoCaches (277ms)
 			ResolveRequiredComponents (17ms)
-	FinalizeReload (1177ms)
+	FinalizeReload (1107ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (917ms)
+		SetupLoadedEditorAssemblies (855ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (17ms)
-			BeforeProcessingInitializeOnLoad (267ms)
-			ProcessInitializeOnLoadAttributes (519ms)
-			ProcessInitializeOnLoadMethodAttributes (91ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6809 unused Assets / (5.5 MB). Loaded Objects now: 7522.
-Memory consumption went from 147.5 MB to 141.9 MB.
-Total: 15.034470 ms (FindLiveObjects: 1.284214 ms CreateObjectMapping: 0.810898 ms MarkObjects: 8.408741 ms  DeleteObjects: 4.529411 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 2297.401239 seconds.
-  path: Assets/Prefabs/Point.prefab
-  artifactKey: Guid(a425786134cde12448b41cee31b5ef92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Point.prefab using Guid(a425786134cde12448b41cee31b5ef92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b1e8d1c9f4f5b65b30622fa14ff36d7') in 0.067892997 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.464586 seconds.
-  path: Assets/Prefabs/LinePipe.prefab
-  artifactKey: Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LinePipe.prefab using Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '534b7e816372db7cc125c2e2f0bcea7b') in 0.790700109 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.532849 seconds.
-  path: Assets/Prefabs/TurnPipe.prefab
-  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cff0501336908e94089d61b038ba887') in 0.025510923 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.802165 seconds.
-  path: Assets/Prefabs/TShapePipe.prefab
-  artifactKey: Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TShapePipe.prefab using Guid(03d3a4e5fa901aea19bf2a26a8662014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bd67b049ebdc8a4d10c66fdb262a2e6') in 0.014298367 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 119.374690 seconds.
-  path: Assets/Scripts/PipeScenarios/sc1.asset
-  artifactKey: Guid(db0c28f82db7a0761a68379862c26f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PipeScenarios/sc1.asset using Guid(db0c28f82db7a0761a68379862c26f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfe411e5d7a7cc9b91e2e61589cd5c3a') in 0.002936145 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 84.390743 seconds.
-  path: Assets/Scripts/PipeScenarios/sc1.asset
-  artifactKey: Guid(db0c28f82db7a0761a68379862c26f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PipeScenarios/sc1.asset using Guid(db0c28f82db7a0761a68379862c26f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '652f35103e4e515edaecb84a8c875857') in 0.002467305 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.150 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.125 seconds
-Domain Reload Profiling: 2278ms
-	BeginReloadAssembly (316ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (48ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (104ms)
-	RebuildCommonClasses (70ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (697ms)
-		LoadAssemblies (442ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (336ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (300ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1126ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (867ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (218ms)
-			ProcessInitializeOnLoadAttributes (518ms)
-			ProcessInitializeOnLoadMethodAttributes (91ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6809 unused Assets / (5.8 MB). Loaded Objects now: 7556.
-Memory consumption went from 152.7 MB to 146.9 MB.
-Total: 15.154198 ms (FindLiveObjects: 1.257700 ms CreateObjectMapping: 0.926399 ms MarkObjects: 8.412260 ms  DeleteObjects: 4.556651 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.090 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.173 seconds
-Domain Reload Profiling: 2266ms
-	BeginReloadAssembly (280ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (85ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (676ms)
-		LoadAssemblies (447ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (314ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (279ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1174ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (916ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (17ms)
-			BeforeProcessingInitializeOnLoad (243ms)
-			ProcessInitializeOnLoadAttributes (542ms)
-			ProcessInitializeOnLoadMethodAttributes (91ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6809 unused Assets / (6.0 MB). Loaded Objects now: 7559.
-Memory consumption went from 152.6 MB to 146.6 MB.
-Total: 15.719636 ms (FindLiveObjects: 1.344968 ms CreateObjectMapping: 0.734099 ms MarkObjects: 8.804668 ms  DeleteObjects: 4.834650 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.068 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.121 seconds
-Domain Reload Profiling: 2192ms
-	BeginReloadAssembly (277ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (86ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (670ms)
-		LoadAssemblies (429ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (321ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (281ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1122ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (868ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (17ms)
-			BeforeProcessingInitializeOnLoad (220ms)
-			ProcessInitializeOnLoadAttributes (514ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (217ms)
+			ProcessInitializeOnLoadAttributes (507ms)
 			ProcessInitializeOnLoadMethodAttributes (93ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
@@ -774,16 +744,16 @@ Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support c
 Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6809 unused Assets / (5.2 MB). Loaded Objects now: 7562.
-Memory consumption went from 152.7 MB to 147.4 MB.
-Total: 15.422595 ms (FindLiveObjects: 1.133050 ms CreateObjectMapping: 0.888074 ms MarkObjects: 8.768256 ms  DeleteObjects: 4.632073 ms)
+Unloading 6810 unused Assets / (5.2 MB). Loaded Objects now: 7566.
+Memory consumption went from 154.0 MB to 148.9 MB.
+Total: 14.734639 ms (FindLiveObjects: 1.183531 ms CreateObjectMapping: 0.758550 ms MarkObjects: 8.793825 ms  DeleteObjects: 3.997650 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.083 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+- Loaded All Assemblies, in  1.104 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -791,222 +761,34 @@ Native extension for WebGL target not found
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.175 seconds
-Domain Reload Profiling: 2263ms
-	BeginReloadAssembly (300ms)
+- Finished resetting the current domain, in  1.107 seconds
+Domain Reload Profiling: 2213ms
+	BeginReloadAssembly (282ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (27ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (107ms)
-	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (653ms)
-		LoadAssemblies (427ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (307ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (273ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1176ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (924ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (262ms)
-			ProcessInitializeOnLoadAttributes (532ms)
-			ProcessInitializeOnLoadMethodAttributes (91ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6809 unused Assets / (5.5 MB). Loaded Objects now: 7565.
-Memory consumption went from 152.7 MB to 147.2 MB.
-Total: 15.825556 ms (FindLiveObjects: 1.298545 ms CreateObjectMapping: 0.798232 ms MarkObjects: 9.111509 ms  DeleteObjects: 4.616085 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6799 unused Assets / (5.8 MB). Loaded Objects now: 7566.
-Memory consumption went from 152.9 MB to 147.0 MB.
-Total: 17.807189 ms (FindLiveObjects: 1.301827 ms CreateObjectMapping: 0.924320 ms MarkObjects: 10.416344 ms  DeleteObjects: 5.163334 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 754.893520 seconds.
-  path: Assets/Scripts/PipesDD.cs
-  artifactKey: Guid(9b59d52dbe0113e4bb3dd2c801d5e0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PipesDD.cs using Guid(9b59d52dbe0113e4bb3dd2c801d5e0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c8efe270b1b02bf36129ec04e68afc8') in 0.002906959 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.089 seconds
-Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.161 seconds
-Domain Reload Profiling: 2254ms
-	BeginReloadAssembly (274ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (84ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (698ms)
-		LoadAssemblies (455ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (324ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (284ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1162ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (893ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (17ms)
-			BeforeProcessingInitializeOnLoad (242ms)
-			ProcessInitializeOnLoadAttributes (519ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6810 unused Assets / (5.6 MB). Loaded Objects now: 7569.
-Memory consumption went from 152.7 MB to 147.2 MB.
-Total: 16.042273 ms (FindLiveObjects: 1.419482 ms CreateObjectMapping: 0.917523 ms MarkObjects: 8.954694 ms  DeleteObjects: 4.739338 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6799 unused Assets / (5.6 MB). Loaded Objects now: 7569.
-Memory consumption went from 152.9 MB to 147.3 MB.
-Total: 15.849726 ms (FindLiveObjects: 1.109180 ms CreateObjectMapping: 0.820241 ms MarkObjects: 9.142023 ms  DeleteObjects: 4.776918 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 111.345262 seconds.
-  path: Assets/Scripts/PipesDD.cs
-  artifactKey: Guid(9b59d52dbe0113e4bb3dd2c801d5e0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PipesDD.cs using Guid(9b59d52dbe0113e4bb3dd2c801d5e0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a99bf5434265eabbb58dedb5dc78778a') in 0.002265288 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6799 unused Assets / (6.7 MB). Loaded Objects now: 7569.
-Memory consumption went from 152.9 MB to 146.2 MB.
-Total: 20.369911 ms (FindLiveObjects: 1.238787 ms CreateObjectMapping: 0.931266 ms MarkObjects: 11.904471 ms  DeleteObjects: 6.293453 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 31.752451 seconds.
-  path: Assets/Scripts/PipesDD.cs
-  artifactKey: Guid(9b59d52dbe0113e4bb3dd2c801d5e0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PipesDD.cs using Guid(9b59d52dbe0113e4bb3dd2c801d5e0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee184c8cc82852fd8845340dcc411a5c') in 0.000744275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6799 unused Assets / (7.0 MB). Loaded Objects now: 7569.
-Memory consumption went from 152.9 MB to 146.0 MB.
-Total: 20.517251 ms (FindLiveObjects: 1.246802 ms CreateObjectMapping: 0.961585 ms MarkObjects: 12.016086 ms  DeleteObjects: 6.291230 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 19.577779 seconds.
-  path: Assets/Scripts/PipesDD.cs
-  artifactKey: Guid(9b59d52dbe0113e4bb3dd2c801d5e0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PipesDD.cs using Guid(9b59d52dbe0113e4bb3dd2c801d5e0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcabb996d094daf5cc68898ff125a31a') in 0.000782614 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.103 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.119 seconds
-Domain Reload Profiling: 2225ms
-	BeginReloadAssembly (281ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (87ms)
+		CreateAndSetChildDomain (83ms)
 	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (691ms)
-		LoadAssemblies (453ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (685ms)
+		LoadAssemblies (459ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (320ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (281ms)
+		AnalyzeDomain (312ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (276ms)
 			ResolveRequiredComponents (18ms)
-	FinalizeReload (1120ms)
+	FinalizeReload (1108ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (859ms)
+		SetupLoadedEditorAssemblies (857ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (16ms)
 			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (215ms)
-			ProcessInitializeOnLoadAttributes (507ms)
+			BeforeProcessingInitializeOnLoad (212ms)
+			ProcessInitializeOnLoadAttributes (508ms)
 			ProcessInitializeOnLoadMethodAttributes (97ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
@@ -1016,16 +798,18 @@ Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support c
 Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6810 unused Assets / (5.5 MB). Loaded Objects now: 7572.
-Memory consumption went from 152.8 MB to 147.3 MB.
-Total: 15.516849 ms (FindLiveObjects: 1.205642 ms CreateObjectMapping: 0.844866 ms MarkObjects: 9.015608 ms  DeleteObjects: 4.449665 ms)
+Unloading 6810 unused Assets / (5.4 MB). Loaded Objects now: 7569.
+Memory consumption went from 153.9 MB to 148.6 MB.
+Total: 14.816484 ms (FindLiveObjects: 1.224149 ms CreateObjectMapping: 0.926186 ms MarkObjects: 8.457229 ms  DeleteObjects: 4.207762 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.084 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.117 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -1033,45 +817,198 @@ Native extension for WebGL target not found
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.094 seconds
-Domain Reload Profiling: 2181ms
-	BeginReloadAssembly (285ms)
+- Finished resetting the current domain, in  1.129 seconds
+Domain Reload Profiling: 2249ms
+	BeginReloadAssembly (292ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
+		DisableScriptedObjects (27ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (88ms)
-	RebuildCommonClasses (69ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (663ms)
-		LoadAssemblies (429ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (686ms)
+		LoadAssemblies (466ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (318ms)
-			TypeCache.Refresh (13ms)
+		AnalyzeDomain (311ms)
+			TypeCache.Refresh (11ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (283ms)
+			BuildScriptInfoCaches (278ms)
 			ResolveRequiredComponents (17ms)
-	FinalizeReload (1095ms)
+	FinalizeReload (1130ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (838ms)
+		SetupLoadedEditorAssemblies (875ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
+			InitializePlatformSupportModulesInManaged (17ms)
 			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (208ms)
-			ProcessInitializeOnLoadAttributes (500ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
+			BeforeProcessingInitializeOnLoad (218ms)
+			ProcessInitializeOnLoadAttributes (516ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (19ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6810 unused Assets / (5.3 MB). Loaded Objects now: 7575.
-Memory consumption went from 152.8 MB to 147.6 MB.
-Total: 15.639020 ms (FindLiveObjects: 1.264890 ms CreateObjectMapping: 0.797335 ms MarkObjects: 8.987864 ms  DeleteObjects: 4.587945 ms)
+Unloading 6810 unused Assets / (4.6 MB). Loaded Objects now: 7572.
+Memory consumption went from 154.0 MB to 149.4 MB.
+Total: 15.017205 ms (FindLiveObjects: 1.164907 ms CreateObjectMapping: 0.889349 ms MarkObjects: 8.664297 ms  DeleteObjects: 4.297582 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1166.065684 seconds.
+  path: Assets/Prefabs/LinePipe.prefab
+  artifactKey: Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LinePipe.prefab using Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e424aae31d78b36ebf806b910dceb8d4') in 0.747703027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Prefabs/TurnPipe.prefab
+  artifactKey: Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurnPipe.prefab using Guid(f92c83aeacff0e4368840753cfc86f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8595ab07623399e3acd313fba750d016') in 0.008246284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.615558 seconds.
+  path: Assets/Prefabs/LinePipe.prefab
+  artifactKey: Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LinePipe.prefab using Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a5b7ed97619948a4f22db426be941dc') in 0.012125725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.072 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.108 seconds
+Domain Reload Profiling: 2183ms
+	BeginReloadAssembly (287ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (44ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (93ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (669ms)
+		LoadAssemblies (420ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (324ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (289ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1108ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (855ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (212ms)
+			ProcessInitializeOnLoadAttributes (509ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6810 unused Assets / (5.5 MB). Loaded Objects now: 7596.
+Memory consumption went from 155.7 MB to 150.2 MB.
+Total: 15.017006 ms (FindLiveObjects: 1.267162 ms CreateObjectMapping: 0.832939 ms MarkObjects: 8.530664 ms  DeleteObjects: 4.384738 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 26.212631 seconds.
+  path: Assets/Prefabs/LinePipe.prefab
+  artifactKey: Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LinePipe.prefab using Guid(95f941a71b9a29846a3262ec3805d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f728c934f77ba0bd501e392dd8230686') in 0.727556422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6798 unused Assets / (5.9 MB). Loaded Objects now: 7718.
+Memory consumption went from 157.9 MB to 151.9 MB.
+Total: 20.232276 ms (FindLiveObjects: 1.476067 ms CreateObjectMapping: 1.078834 ms MarkObjects: 12.366860 ms  DeleteObjects: 5.308999 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.134 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.180 seconds
+Domain Reload Profiling: 2317ms
+	BeginReloadAssembly (321ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (50ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (104ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (682ms)
+		LoadAssemblies (444ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (319ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (280ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1181ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (907ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (241ms)
+			ProcessInitializeOnLoadAttributes (532ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6809 unused Assets / (5.4 MB). Loaded Objects now: 7619.
+Memory consumption went from 157.3 MB to 151.9 MB.
+Total: 15.639008 ms (FindLiveObjects: 1.325807 ms CreateObjectMapping: 0.782572 ms MarkObjects: 9.033759 ms  DeleteObjects: 4.495488 ms)
 
 Prepare: number of updated asset objects reloaded= 0

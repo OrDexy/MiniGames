@@ -1,52 +1,53 @@
 using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 
-public class PipePointLogic : MonoBehaviour
+public class Pipe : MonoBehaviour
 {
-    SpriteRenderer sr;
-
-    public GameObject[] friends;
-    public GameObject pipe;
-
+    public bool isPowered;
+    public LayerMask pipeLayer;
+    public Transform[] connectors;
+    
     public Sprite online;
     public Sprite offline;
-    void Start() 
-    { 
-        sr = pipe.GetComponent<SpriteRenderer>();
-    }
-    void Update() 
+    SpriteRenderer sr;
+    
+    void Start()
     {
-        //foreach (var item in friends)
-        //{
-            //if (item.gameObject.tag != "On") gameObject.tag = "Untagged";
-        //}
+        sr = GetComponent<SpriteRenderer>();
     }
-    void OnTriggerStay2D(Collider2D collision)
+    public void UpdateConnections()
     {
-        if (collision.gameObject.tag == "On")
+        if(gameObject.tag != "Source") isPowered = false;
+    }
+    public void SpreadPower(HashSet<Pipe> visited)
+    {
+        if(visited.Contains(this)) return;
+        visited.Add(this);
+        isPowered = true;
+        gameObject.tag = "On";
+        gameObject.sr.sprite = online;
+        foreach(Transform connector in connectors)
         {
-            sr.sprite = online;
-            foreach (var item in friends)
+            Collider2D neighborCollider = Physics2D.OverlapCircle(connector.position, 0.1f, pipeLayer);
+            if(neighborCollider != null && neighborCollider.gameObject != this.gameObject)
             {
-                item.gameObject.tag = "On";
-                //gameObject.tag = "On";
+                Pipe neighbor = neighborCollider.GetComponent<Pipe>();
+                if(neighbor != null && neighbor.IsTouching(connector.position)) neighbor.SpreadPower(visited);
             }
-        } else {
-		      sr.sprite = offline;
-            foreach (var item in friends)
-            {
-                item.gameObject.tag = "Untagged";
-                //gameObject.tag = "Untagged";
-            }        
         }
     }
-    void OnTriggerExit2D(Collider2D collision)
+    public bool IsTouching(Vector3 position)
     {
-        sr.sprite = offline;
-        foreach (var item in friends)
+        foreach(Transform c in connectors)
         {
-            item.gameObject.tag = "Untagged";
-            //gameObject.tag = "Untagged";
+            if(Vector3.Distance(c.position, position) < 0.2f) return true;
         }
+        return false;
+    }
+    public void GetItOff()
+    {
+        isPowered = false;
+        gameObject.tag = "Untagged";
+        gameObject.sr.sprite = offline;
     }
 }
