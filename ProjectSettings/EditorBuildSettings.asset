@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PipesGame.unity
     guid: fe4147f9534019a4e902c1b8e4b42aa7
+  - enabled: 1
+    path: Assets/Scenes/GuessBrendGame.unity
+    guid: c50c6ed6dfd0520cf8030e48e4f3386a
+  - enabled: 1
+    path: Assets/Scenes/LogoGame.unity
+    guid: 6eb59b656dc2c44f58240edcfd2c4963
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -1,0 +1,7 @@
+using UnityEngine;
+[CreateAssetMenu(fileName = "PhraseScenario", menuName = "ScriptableObjects/PhraseScenarioScriptableObject", order = 3)]
+public class PipeScenarioScriptableObject : ScriptableObject
+{
+    public string phrase;
+    public string brand;
+}

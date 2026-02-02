@@ -463,11 +463,14 @@
 "Assets/Scripts/CounterWorks.cs"
 "Assets/Scripts/DragAndDrop.cs"
 "Assets/Scripts/GlobalButton.cs"
+"Assets/Scripts/LogoG.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/PasswordG.cs"
+"Assets/Scripts/PhraseGuessG.cs"
+"Assets/Scripts/PhraseScenerios/ScriptablePhrase.cs"
 "Assets/Scripts/Pipe.cs"
 "Assets/Scripts/PipeG.cs"
-"Assets/Scripts/ScriptableScenario.cs"
+"Assets/Scripts/PipeScenarios/ScriptableScenario.cs"
 "Assets/Scripts/Startup.cs"
 -langversion:9.0
 /deterministic

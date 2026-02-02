@@ -9,7 +9,11 @@ public class CounterWorks : MonoBehaviour
     public Image clock;
     public TMP_Text label;
     public GameObject tellIfPaused;
-    [SerializeField] float secsLeft = 30f;
+    public float secsLeft = 30f;
+    bool didIt = false;
+    
+    public GameObject lossPlay;    
+    
     void Update()
     {
         if (!tellIfPaused.activeSelf) 
@@ -18,11 +22,15 @@ public class CounterWorks : MonoBehaviour
             clock.fillAmount = secsLeft / 30f;
             label.text = ((int)secsLeft).ToString();
         }
-        if(secsLeft <= 0f) StartCoroutine(YouLost());
+        if(secsLeft <= 0f && didIt == false) 
+		  {        
+            StartCoroutine(YouLost());
+            didIt = !didIt;
+        }
     }
     IEnumerator YouLost() 
     {
-        Debug.Log("You lost... returning back to menu");
+        lossPlay.SetActive(true);
         yield return new WaitForSeconds(3f);
         SceneManager.LoadScene(1);
         yield return null;

@@ -7,6 +7,10 @@ TagManager:
   - On
   - Activated
   - Source
+  - Square
+  - Rectangle
+  - Triangle
+  - Circle
   layers:
   - Default
   - TransparentFX

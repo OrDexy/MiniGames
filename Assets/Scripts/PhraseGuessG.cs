@@ -1,0 +1,38 @@
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using System.Text.RegularExpressions;
+
+public class PhraseGuessG : MonoBehaviour
+{
+    public ScriptablePhrase[] scenes;
+    
+    public TMP_Text phraseField;
+    public TMP_InputField brandField;
+    
+    int rnd;
+    
+    private static readonly Regex sWhitespace = new Regex(@"\s+"); 
+    public static string ReplaceWhitespace(string input, string replacement) 
+    { 
+        return sWhitespace.Replace(input, replacement); 
+    }
+    
+    void Start()
+    {
+        rnd = Random.Range(0, scenes.Length);
+        phraseField.text = scenes[rnd].phrase;
+    }
+    
+    public void Check()
+    {
+        if(brandField.text != null)
+        {
+            string guess = brandField.text.ToLower();
+            guess = ReplaceWhitespace(guess, "");
+            Debug.Log(guess);
+            if(guess == scenes[rnd].brand) Debug.Log("Good");
+            else Debug.Log("Bad");
+        } else Debug.Log("It`s null duh");
+    }
+}

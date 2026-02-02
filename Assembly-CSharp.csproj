@@ -49,13 +49,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/CounterWorks.cs" />
+    <Compile Include="Assets/Scripts/PipeScenarios/ScriptableScenario.cs" />
+    <Compile Include="Assets/Scripts/PhraseScenerios/ScriptablePhrase.cs" />
     <Compile Include="Assets/Scripts/PipeG.cs" />
     <Compile Include="Assets/Scripts/Pipe.cs" />
-    <Compile Include="Assets/Scripts/ScriptableScenario.cs" />
     <Compile Include="Assets/Scripts/MainMenu.cs" />
+    <Compile Include="Assets/Scripts/LogoG.cs" />
     <Compile Include="Assets/Scripts/Startup.cs" />
     <Compile Include="Assets/Scripts/PasswordG.cs" />
     <Compile Include="Assets/Scripts/GlobalButton.cs" />
+    <Compile Include="Assets/Scripts/PhraseGuessG.cs" />
     <Compile Include="Assets/Scripts/DragAndDrop.cs" />
   </ItemGroup>
   <ItemGroup>
