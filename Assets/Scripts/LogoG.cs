@@ -4,15 +4,10 @@ public class LogoG : MonoBehaviour
 {
     public string whichTag;
     public int limit;
-    [SerializeField] int countOfDoings;
+    [SerializeField] int countOfDoings = 1;
     public GameObject shape;//dud
     static bool isQuitting = false;
     bool yesToSpawn = true;
-    void Start()
-    {
-        Instantiate(shape, transform.position, Quaternion.identity);
-        countOfDoings = 1;
-    }
     
     void Update()
     {
