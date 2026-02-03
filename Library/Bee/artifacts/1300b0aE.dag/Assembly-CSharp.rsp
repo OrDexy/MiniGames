@@ -463,6 +463,7 @@
 "Assets/Scripts/CounterWorks.cs"
 "Assets/Scripts/DragAndDrop.cs"
 "Assets/Scripts/GlobalButton.cs"
+"Assets/Scripts/IdentikitG.cs"
 "Assets/Scripts/LogoG.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/PasswordG.cs"
