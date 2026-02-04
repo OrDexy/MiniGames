@@ -18,7 +18,5 @@ public class DragAndDrop : MonoBehaviour
         Vector3 curScreenPoint = new Vector3(Input.mousePosition.x,Input.mousePosition.y, screenPoint.z);
         Vector3 curPosition = playerCamera.ScreenToWorldPoint(curScreenPoint) + offset;
         transform.position = curPosition;
-        Pipe nei = gameObject.GetComponent<Pipe>();
-        if(nei != null) nei.UpdateConnections();
     }
 }

@@ -54,6 +54,9 @@
     <Compile Include="Assets/Scripts/PhraseScenerios/ScriptablePhrase.cs" />
     <Compile Include="Assets/Scripts/PipeG.cs" />
     <Compile Include="Assets/Scripts/Pipe.cs" />
+    <Compile Include="Assets/Scripts/EverChangingColors.cs" />
+    <Compile Include="Assets/Scripts/PartOfPicture.cs" />
+    <Compile Include="Assets/Scripts/PaintG.cs" />
     <Compile Include="Assets/Scripts/MainMenu.cs" />
     <Compile Include="Assets/Scripts/LogoG.cs" />
     <Compile Include="Assets/Scripts/Startup.cs" />
