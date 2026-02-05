@@ -1683,7 +1683,7 @@ GameObject:
   - component: {fileID: 659065407}
   - component: {fileID: 659065406}
   m_Layer: 5
-  m_Name: Enter///Button
+  m_Name: EnterPGButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1760,7 +1760,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 7
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

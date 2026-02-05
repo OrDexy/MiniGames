@@ -48,6 +48,7 @@
     <Analyzer Include="/home/numlock/Unity/Hub/Editor/6000.2.2f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/ConnectLogic.cs" />
     <Compile Include="Assets/Scripts/CounterWorks.cs" />
     <Compile Include="Assets/Scripts/IdentikitG.cs" />
     <Compile Include="Assets/Scripts/PipeScenarios/ScriptableScenario.cs" />
@@ -60,6 +61,7 @@
     <Compile Include="Assets/Scripts/MainMenu.cs" />
     <Compile Include="Assets/Scripts/LogoG.cs" />
     <Compile Include="Assets/Scripts/Startup.cs" />
+    <Compile Include="Assets/Scripts/ConnectBrandG.cs" />
     <Compile Include="Assets/Scripts/PasswordG.cs" />
     <Compile Include="Assets/Scripts/GlobalButton.cs" />
     <Compile Include="Assets/Scripts/PhraseGuessG.cs" />

@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/IndetikitGame.unity
     guid: f3ea1c12e9051fe30be25e8467b4e21a
+  - enabled: 1
+    path: Assets/Scenes/PaintGame.unity
+    guid: 5df3b38323638d93081c6404d6b61962
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
