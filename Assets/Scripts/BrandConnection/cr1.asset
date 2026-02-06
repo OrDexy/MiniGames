@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b7669bb223645e278fba19b338d65bd, type: 3}
+  m_Name: cr1
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptableConnection
+  nameB: {fileID: 1759381602658792407, guid: 7b25c0638886ebe2c915e4dca0ea1e8e, type: 3}
+  logo: {fileID: 9210204557772173727, guid: b97cd59ee88c82e6da27ab685d5d6a1e, type: 3}

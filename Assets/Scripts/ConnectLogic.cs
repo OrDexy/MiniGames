@@ -17,6 +17,7 @@ public class ConnectLogic : MonoBehaviour
 
     void OnMouseDown()
     {
+        gameObject.tag = "Untagged";
         lr.SetPosition(0, transform.position);
     }
     void OnMouseDrag()
@@ -30,8 +31,10 @@ public class ConnectLogic : MonoBehaviour
         if(neigh != null && neigh.gameObject != this.gameObject)
         {
             lr.SetPosition(1, neigh.transform.position);
-            if(neigh.gameObject.name == brandName)
-                Debug.Log("W");
+            if(neigh.gameObject.name == brandName || neigh.gameObject.name == brandName + "(Clone)")
+                gameObject.tag = "On";
+            else
+                gameObject.tag = "Untagged";
         }
         else
             lr.SetPosition(1, transform.position);

@@ -3,9 +3,7 @@ using System.Collections.Generic;
 
 public class Pipe : MonoBehaviour
 {
-    public bool isPowered;
     public LayerMask pipeLayer;
-    public Transform[] connectors;
     
     public Sprite online;
     public Sprite offline;
@@ -15,44 +13,50 @@ public class Pipe : MonoBehaviour
     {
         sr = gameObject.GetComponent<SpriteRenderer>();
     }
-    public void UpdateConnections()
+    void Update()
     {
-        if(gameObject.tag != "Source") isPowered = false;
-    }
-    public void SpreadPower(HashSet<Pipe> visited)
-    {
-        if(visited.Contains(this)) return;
-        visited.Add(this);
-        isPowered = true;
-        gameObject.tag = "On";
-        sr.sprite = online;
-        foreach(Transform connector in connectors)
+        if(gameObject.tag == "Untagged")
         {
-            Collider2D neighborCollider = Physics2D.OverlapCircle(connector.position, 0.1f, pipeLayer);
-            if(neighborCollider != null && neighborCollider.gameObject != this.gameObject)
-            {
-                Pipe neighbor = neighborCollider.GetComponent<Pipe>();
-                if(neighbor != null && neighbor.IsTouching(connector.position)) neighbor.SpreadPower(visited);
-            }
+            sr.sprite = offline;
+        } else {
+            sr.sprite = online;
+        }
+        if(gameObject.tag == "Source")
+        {
+            SpreadPower("On");
         }
     }
-    public bool IsTouching(Vector3 position)
+    void OnTriggerEnter2D(Collider2D coll)
     {
-        foreach(Transform c in connectors)
+        if(coll.gameObject.tag != "Untagged")
         {
-            if(Vector3.Distance(c.position, position) < 0.2f) return true;
+            SpreadPower("On");
         }
-        return false;
     }
-    public void GetItOff()
+    void OnTriggerStay2D(Collider2D coll)
     {
-        isPowered = false;
-        gameObject.tag = "Untagged";
-        sr.sprite = offline;
+        if(coll.CompareTag("Source"))
+        {
+            SpreadPower("On");
+        }
     }
-    public void GetItOn()
+    void OnTriggerExit2D(Collider2D coll)
     {
-        isPowered = true;
-        sr.sprite = online;
+        if(coll.gameObject.tag != "Untagged")
+        {
+            SpreadPower("Untagged");
+        }
+    }
+    public void SpreadPower(string tage)
+    {
+
+        gameObject.tag = tage;
+        Collider2D neighborCollider = Physics2D.OverlapCircle(transform.position, 0.1f, pipeLayer);
+        if(neighborCollider != null && neighborCollider.gameObject != this.gameObject)
+        {
+            Pipe neighbor = neighborCollider.GetComponent<Pipe>();
+            if(neighbor != null)
+                neighbor.SpreadPower(tage);
+        }
     }
 }

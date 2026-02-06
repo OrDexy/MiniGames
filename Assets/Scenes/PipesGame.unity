@@ -224,7 +224,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!1 &42647004
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,7 +493,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!1001 &739523991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -696,7 +696,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3acdb8d537647ea4b816b954ac347525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pipe
-  isPowered: 0
   pipeLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -1358,14 +1357,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1704924831249005279, guid: 95f941a71b9a29846a3262ec3805d7c3, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6204441334334504179, guid: 95f941a71b9a29846a3262ec3805d7c3, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7357374276719134577, guid: 95f941a71b9a29846a3262ec3805d7c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.88

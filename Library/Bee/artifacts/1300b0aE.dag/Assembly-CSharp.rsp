@@ -140,7 +140,6 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
--define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
@@ -460,6 +459,7 @@
 -analyzer:"/home/numlock/Unity/Hub/Editor/6000.2.2f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/home/numlock/Unity/Hub/Editor/6000.2.2f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"/home/numlock/Unity/Hub/Editor/6000.2.2f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/Scripts/BrandConnection/ScriptableConnection.cs"
 "Assets/Scripts/ConnectBrandG.cs"
 "Assets/Scripts/ConnectLogic.cs"
 "Assets/Scripts/CounterWorks.cs"
